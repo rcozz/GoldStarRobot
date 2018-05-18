@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  gsr:
+    image: gsr
+    build:
+      context: .
+      dockerfile: GSR\Dockerfile
